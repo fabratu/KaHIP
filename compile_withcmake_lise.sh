@@ -17,8 +17,8 @@ cd build
 
 #specific paths for compiler in lise
 cmake \
--DCMAKE_C_COMPILER=/sw/compiler/gcc/9.2.0/skl/bin/gcc \
--DCMAKE_CXX_COMPILER=/sw/compiler/gcc/9.2.0/skl/bin/g++ \
+-DCMAKE_C_COMPILER=/scratch/usr/bembratu/anaconda2/envs/tzovas-exp/bin/x86_64-conda_cos6-linux-gnu-gcc \
+-DCMAKE_CXX_COMPILER=/scratch/usr/bembratu/anaconda2/envs/tzovas-exp/bin/x86_64-conda_cos6-linux-gnu-c++ \
 ../
 
 make -j $NCORES
