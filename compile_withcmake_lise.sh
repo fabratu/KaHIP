@@ -17,8 +17,8 @@ cd build
 
 #specific paths for compiler in lise
 cmake \
--DCMAKE_C_COMPILER=/scratch/usr/bembratu/anaconda2/envs/tzovas-exp/bin/mpicc \
--DCMAKE_CXX_COMPILER=/scratch/usr/bembratu/anaconda2/envs/tzovas-exp/bin/mpicxx \
+-DCMAKE_C_COMPILER=mpicc \
+-DCMAKE_CXX_COMPILER=mpicxx \
 ../
 
 make -j $NCORES
